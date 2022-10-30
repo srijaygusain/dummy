@@ -1,4 +1,4 @@
-int powmod(long long x,int n,int mod)
+int powmod(long long x,int n,const int mod)
 {	
     x%=mod;
     if(x==0)
